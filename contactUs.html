@@ -1,0 +1,88 @@
+<!DOCTYPE html">
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assignment4style.css">
+<title>Individual Project</title>
+<meta charset="utf-8">
+</head>
+<body>
+    <!--Pavel Nam, my student number is: 30******2 COMP213 - Web Interface Design - (SEC. 011) FALL 2022 - Individual Project-->
+    <div id="banner">
+        <div id="BannerHeader">
+            <img src="banner.png" style="width:1000px;height:200px;"/>
+        <ul>
+            <li><a href="index.html">Home page</a></li>
+            <li><a href ="properties.html">Properties</a></li>
+            <li><a href="contactUs.html">Contact us</a></li>
+            <li><a href="siteMap.html">Site Map and Credits</a></li>
+          </ul>
+    <h2> Contact us</h2>
+</div>
+    <div id="textEvaluation">
+    <p>Please fill up the form below that we can contact you later.</p>
+
+        <p><b>First Name: </b> <input type="text"> </p>
+        <p><b>Last Name: </b> <input type="text"> </p>
+        <p><b>Email: </b> <input type="text"> </p>
+        <p><b>Phone number: </b> <input type="text"> </p>
+        <form><p>
+        <span id="link3"><b>Type of Property: </b>
+            <input type="radio" id="FirstOption" name="typeOfProperty" value="FirstOption">
+            <label for="FirstOption">House</label>
+            <input type="radio" id="SecondOption" name="typeOfProperty" value="SecondOption">
+            <label for="SecondOption">Condominium</label>
+        </span>
+            
+                <label for="PriceRange"><b>Price range:</b></label>
+                <select name="PriceRange" id="PriceRange">
+                  <option value="cheap">Less than: 1 000 000 $</option>
+                  <option value="middle">Between: 1 000 000 $ and 2 000 000 $</option>
+                  <option value="expensive">More than: 2 000 000 $</option>
+                </select>
+
+        </p>
+        
+        <p><b>Number Of Bedrooms</b></p>
+
+            <input type="radio" id="One" name="bedroomNumb" value="one">
+            <label for="One">One</label>
+            <input type="radio" id="Two" name="bedroomNumb" value="two">
+            <label for="Two">Two</label>
+            <input type="radio" id="Three" name="bedroomNumb" value="three">
+            <label for="Three">Three</label>
+            <input type="radio" id="Four" name="bedroomNumb" value="Four">
+            <label for="Four">Four +</label>
+
+
+        <p><b>Number Of Bathrooms</b></p>
+
+            <input type="radio" id="OneBath" name="batroomNumb" value="one">
+            <label for="OneBath">One</label>
+            <input type="radio" id="TwoBath" name="batroomNumb" value="two">
+            <label for="TwoBath">Two</label>
+            <input type="radio" id="ThreeBath" name="batroomNumb"" value="three">
+            <label for="ThreeBath">Three</label>
+            <input type="radio" id="FourBath" name="batroomNumb" value="Four">
+            <label for="FourBath">Four +</label>
+
+    <p><label for="evaluation"><b>Comment</b></label> <textarea id="evaluation" name="evaluation" rows="1" cols="50"></textarea></p>
+
+     
+    <a href="mailto:abc@example.com?subject = Feedback&body = Message" target="_blank"> 
+    <button type = "button">
+      Submit
+    </button>
+    </a>
+</form>
+    </div>
+
+<div>
+<footer>
+    <h4><br>Copyright &copy; Pavel Nam - COMP213 - Web Interface Design - (SEC. 011) - FALL 2022 - Individual Project</h4>
+</div>
+</footer>
+</body>
+</html>
+
+
+

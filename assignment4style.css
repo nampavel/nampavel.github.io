@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: #d0cdcd;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: rgb(242, 234, 225);
+  }
+
+  .header h1 {
+    font-size: 50px;
+  }
+
+div.descriptionOfMe {
+  padding-left: 330px;
+  padding-top: 50px;
+  height: 450;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: rgb(242, 234, 225);
+  padding-left: 20px;
+}
+
+.photoMe {
+  background-color: #aaa;
+  padding: 10px;
+  float: left;
+}
+
+
+.card {
+  background-color: rgb(242, 234, 225);
+  padding: 20px;
+  margin-top: 20px;
+  border: 5px solid rgb(216, 207, 207);
+}
+.cardOne {
+  background-color: rgb(242, 234, 225);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  
+  p {
+    font-family: Verdana, sans-serif;
+  }
+
+  footer {
+    text-align: center;
+    font-family: Verdana, sans-serif
+  }
+  #banner {
+    margin: 25px 200px 75px;
+    border: 1px solid black;
+    margin: 25px 200px 75px;
+    background-color: rgb(242, 234, 225);
+  }
+
+  #textEvaluation {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Verdana, sans-serif
+  }
+  #BannerHeader {
+    text-align: center;
+  }
+
+  form {
+    font-family: Verdana, sans-serif;
+  }
+
+  #link1 {
+    text-align: left;
+    margin-right: 5em;
+    font-family: Verdana, sans-serif
+  }
+
+  #link2 {
+    text-align: right;
+    font-family: Verdana, sans-serif
+  }
+
+  #link3 {
+    text-align: left;
+    margin-right: 10em;
+    font-family: Verdana, sans-serif
+  }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(242, 234, 225);
+    margin-top: 20px;
+  }
+
+
+
+  /* For the page properties*/
+
+  div.galleryPropertyAll img {
+    width: 450px;
+    height: 600px;
+    margin: 5px;
+    border: 5px solid #ccc;
+    float: left;
+  }
+
+  div.descriptionForAllRoonms {
+    padding: 120px;
+    text-align: left;
+    height: 700px;
+  }
+
+
+
+
+  /* For the 1 page of property*/
+  
+  div.galleryPropertyOnePhotoOne img {
+    width: 450px;
+    height: 600px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+  }
+
+  div.galleryPropetyOnePhotoTwo img {
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+  }
+
+  div.galleryPropetyOnePhotoThree img {
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+  }
+
+  div.descriptionForAnyRoom {
+    padding: 120px;
+    text-align: center;
+  }
+
+  table {
+    float: auto;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 10px;
+  }
+
+
+
+/*symbols*/
+  div.ourMissionOne {
+    margin-top: 0px;
+    margin-left: 100px;
+    float: left;
+  }
+  div.ourMissionTwo {
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+  }
+  div.ourMissionThree {
+    margin-top: -5px;
+    margin-left: 50px;
+    float: left; 
+  }
+
+  div.listOfCredits {
+    padding-left: 50px;
+  }
+
